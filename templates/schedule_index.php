@@ -1,8 +1,10 @@
-{% extends "cds/base/base.html" %}
-{% load static %}
+<?php
+
+include_once('base/base.html')
+
+?>
 
 
-{% block content %}
 
 <p class="mt-2">Расстановка подвижного состава по часам суток</p>
 
@@ -37,11 +39,10 @@
 
 
 
-  {% endfor %}
-      {% endif %}
+  
   </tbody>
 </table>
 
 <a class="btn btn-primary float-right" href="{% url 'rollingstock_add' %}" role="button">Редактировать</a>
 
-{% endblock %}
+
