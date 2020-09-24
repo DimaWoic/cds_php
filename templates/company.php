@@ -17,22 +17,15 @@
 include(__DIR__.'/header.php');
 ?>
 
+<p class="mt-2">О предприятии</p>
 
-
-<p class="mt-2">Расстановка подвижного состава по часам суток</p>
-
-<table class="table table-striped table-bordered mt-4">
+<table class="table table-striped table-bordered">
   <thead class="thead-dark">
     <tr>
-      <th scope="col">Транспорт</th>
-      <th scope="col">Депо</th>
-      <th scope="col">Маршрут</th>
-      <th scope="col">День графика</th>
-      <th scope="col">Час суток</th>
-      <th scope="col">Количество вагонов(машин)</th>
-      <th scope="col">Начальная дата</th>
-      <th scope="col">Конечная дата</th>
-      <th scope="col">Час суток</th>
+      <th scope="col">название</th>
+      <th scope="col">адрес</th>
+      <th scope="col">электронная почта</th>
+      <th scope="col">номер телефона</th>
     </tr>
   </thead>
   <tbody>
@@ -42,18 +35,14 @@ include(__DIR__.'/header.php');
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
-
+  
   </tbody>
 </table>
 
 <a class="btn btn-primary float-right" href="#" role="button">Редактировать</a>
 
-
 </body>
 </html>
+
+

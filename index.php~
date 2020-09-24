@@ -18,7 +18,7 @@
     ?>
 
 
-<p><?php echo $_SERVER['DOCUMENT_ROOT'] ?></p>
+<p><?php echo $_SERVER ?></p>
 
 
     

@@ -12,27 +12,22 @@
     <title>Тест</title>
 </head>
 <body>
-
 <?php
 include(__DIR__.'/header.php');
 ?>
 
+<p class="mt-2">Список сотрудников</p>
 
-
-<p class="mt-2">Расстановка подвижного состава по часам суток</p>
-
-<table class="table table-striped table-bordered mt-4">
+<table class="table table-striped table-bordered">
   <thead class="thead-dark">
     <tr>
-      <th scope="col">Транспорт</th>
-      <th scope="col">Депо</th>
-      <th scope="col">Маршрут</th>
-      <th scope="col">День графика</th>
-      <th scope="col">Час суток</th>
-      <th scope="col">Количество вагонов(машин)</th>
-      <th scope="col">Начальная дата</th>
-      <th scope="col">Конечная дата</th>
-      <th scope="col">Час суток</th>
+      <th scope="col">Ф.И.О.</th>
+      <th scope="col">Пол</th>
+      <th scope="col">Дата рождения</th>
+      <th scope="col">Место работы</th>
+      <th scope="col">Должность профессия</th>
+      <th scope="col">Адрес</th>
+      <th scope="col">Телефон</th>
     </tr>
   </thead>
   <tbody>
@@ -45,15 +40,11 @@ include(__DIR__.'/header.php');
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
-        <td></td>
     </tr>
-
   </tbody>
 </table>
 
 <a class="btn btn-primary float-right" href="#" role="button">Редактировать</a>
-
 
 </body>
 </html>
